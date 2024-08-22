@@ -1,0 +1,13 @@
+@startuml
+skinparam classAttributeIconSize 0
+package mygame{
+class ColourPicker { 
+quads: ]
+base: Vector2f
+currColour: ColorRGBA
+colours: ]
++ ColourPicker (base: Vector2f)
+handleLeftClick (client: Client)
+}
+}
+@enduml
